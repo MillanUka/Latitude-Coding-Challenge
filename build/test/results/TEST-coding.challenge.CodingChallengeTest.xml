@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="DESKTOP-B375LKJ" name="coding.challenge.CodingChallengeTest" skipped="0" tests="4" time="0.201" timestamp="2021-04-28T04:56:37">
+<testsuite errors="0" failures="0" hostname="DESKTOP-B375LKJ" name="coding.challenge.CodingChallengeTest" skipped="0" tests="6" time="0.29" timestamp="2021-04-29T07:24:57">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="NZ" />
@@ -56,7 +56,7 @@
     <property name="copylibs.rebase" value="true" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner coding.challenge.CodingChallengeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\ukami\OneDrive\Desktop\Millan&apos;s things\programming\Coding Challenge\build\test\results\TEST-coding.challenge.CodingChallengeTest.xml crashfile=C:\Users\ukami\OneDrive\Desktop\Millan&apos;s things\programming\Coding Challenge\build\junitvmwatcher8238672621813329175.properties propsfile=C:\Users\ukami\OneDrive\Desktop\Millan&apos;s things\programming\Coding Challenge\build\junit3826123693773997106.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner coding.challenge.CodingChallengeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\ukami\OneDrive\Desktop\Millan&apos;s things\programming\Coding Challenge\build\test\results\TEST-coding.challenge.CodingChallengeTest.xml crashfile=C:\Users\ukami\OneDrive\Desktop\Millan&apos;s things\programming\Coding Challenge\build\junitvmwatcher878320506088429591.properties propsfile=C:\Users\ukami\OneDrive\Desktop\Millan&apos;s things\programming\Coding Challenge\build\junit2027958304111219346.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -402,22 +402,20 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files (x86)\NetBeans 8.2 RC\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="coding.challenge.CodingChallengeTest" name="testMain" time="0.016">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at coding.challenge.CodingChallengeTest.testMain(CodingChallengeTest.java:49)
-</failure>
-  </testcase>
-  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitEmpty" time="0.0" />
-  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitLarge" time="0.0" />
-  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitSmall" time="0.0">
-    <failure message="expected:&lt;6&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;6&gt; but was:&lt;0&gt;
-	at coding.challenge.CodingChallengeTest.testGetMaxProfitSmall(CodingChallengeTest.java:61)
-</failure>
-  </testcase>
+  <testcase classname="coding.challenge.CodingChallengeTest" name="testMain" time="0.011" />
+  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitLoss" time="0.001" />
+  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitEmpty" time="0.002" />
+  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitLarge" time="0.001" />
+  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitSmall" time="0.0" />
+  <testcase classname="coding.challenge.CodingChallengeTest" name="testGetMaxProfitVeryLarge" time="0.011" />
   <system-out><![CDATA[main
+6
+getMaxProfit guaranteed loss
 getMaxProfit empty array
 getMaxProfit large array
 getMaxProfit small array
+getMaxProfit very large array
+1440
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
