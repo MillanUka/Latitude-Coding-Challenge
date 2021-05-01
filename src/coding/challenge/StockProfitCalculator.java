@@ -10,15 +10,6 @@ package coding.challenge;
  * @author Millan Uka
  */
 public class StockProfitCalculator {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        int[] stockPrices = {16, 15, 2, 4, 1, 1};
-        System.out.println(getMaxProfit(stockPrices));
-    }
-
     /**
      * This method return the maximum amount of profit possible. The algorithm used. simply
      * does a couple of checks, such as the size of the array and if the array object is null. 
