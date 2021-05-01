@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package coding.challenge;
+package coding_challenge;
 
+import coding_challenge.StockProfitCalculator;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
